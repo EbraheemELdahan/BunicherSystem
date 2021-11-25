@@ -1,6 +1,5 @@
 ﻿using Core.Data;
 using Core.Model.Models;
-using System;
 using System.Linq;
 
 namespace Core.Service
