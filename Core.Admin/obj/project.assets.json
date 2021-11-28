@@ -7503,11 +7503,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\BuncherSystem\\Core.Model\\Core.Admin\\Core.Admin.csproj",
+      "projectUniqueName": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Admin\\Core.Admin.csproj",
       "projectName": "Core.Admin",
-      "projectPath": "F:\\BuncherSystem\\Core.Model\\Core.Admin\\Core.Admin.csproj",
+      "projectPath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Admin\\Core.Admin.csproj",
       "packagesPath": "C:\\Users\\DaHaN\\.nuget\\packages\\",
-      "outputPath": "F:\\BuncherSystem\\Core.Model\\Core.Admin\\obj\\",
+      "outputPath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DaHaN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7524,14 +7524,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\BuncherSystem\\Core.Model\\Core.Data\\Core.Data.csproj": {
-              "projectPath": "F:\\BuncherSystem\\Core.Model\\Core.Data\\Core.Data.csproj"
+            "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Data\\Core.Data.csproj": {
+              "projectPath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Data\\Core.Data.csproj"
             },
-            "F:\\BuncherSystem\\Core.Model\\Core.Model\\Core.Model.csproj": {
-              "projectPath": "F:\\BuncherSystem\\Core.Model\\Core.Model\\Core.Model.csproj"
+            "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Model\\Core.Model.csproj": {
+              "projectPath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Model\\Core.Model.csproj"
             },
-            "F:\\BuncherSystem\\Core.Model\\Core.Service\\Core.Service.csproj": {
-              "projectPath": "F:\\BuncherSystem\\Core.Model\\Core.Service\\Core.Service.csproj"
+            "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Service\\Core.Service.csproj": {
+              "projectPath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Service\\Core.Service.csproj"
             }
           }
         }

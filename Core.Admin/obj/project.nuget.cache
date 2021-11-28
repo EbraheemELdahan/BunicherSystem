@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uBxg7cLsDciZw4NqQGKR6ye3Zv97Rdyvc/Rhm7uyog9f5A8aU21l169B05+DjfgUoU0VTog9NMWFOmB/NX8NIg==",
+  "dgSpecHash": "/77LuuJJsfXD3zzq5AXG7j8t8m2OSbZvAcDz9Xia8D7Jf0Uda9ygASPpffhGusgRklYH+2/fzHLwfbaYTtduaQ==",
   "success": true,
-  "projectFilePath": "F:\\BuncherSystem\\Core.Model\\Core.Admin\\Core.Admin.csproj",
+  "projectFilePath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Admin\\Core.Admin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DaHaN\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\DaHaN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

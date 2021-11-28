@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Wwyw1BPZQVsQyi2+l1tgRDcHWfYGvcFdQbjAKqsjp+KK2UfKT5R8crUqPe1nVu4aY8cGpV/G1vUs14HCAnrvg==",
+  "dgSpecHash": "3+y3cbH8ibX/x3HksMOoC4C6iFt1DaWSUGGaZ9Uv6aFaGEcoCDvVF/WO3t/5mK364tnK2vmUFal6G1cAGT02nQ==",
   "success": true,
-  "projectFilePath": "F:\\BuncherSystem\\Core.Model\\Core.Data\\Core.Data.csproj",
+  "projectFilePath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Data\\Core.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DaHaN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DaHaN\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

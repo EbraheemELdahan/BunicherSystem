@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\BuncherSystem\\Core.Model\\Core.API\\Core.API.csproj": {}
+    "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.API\\Core.API.csproj": {}
   },
   "projects": {
-    "F:\\BuncherSystem\\Core.Model\\Core.API\\Core.API.csproj": {
+    "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.API\\Core.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\BuncherSystem\\Core.Model\\Core.API\\Core.API.csproj",
+        "projectUniqueName": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.API\\Core.API.csproj",
         "projectName": "Core.API",
-        "projectPath": "F:\\BuncherSystem\\Core.Model\\Core.API\\Core.API.csproj",
+        "projectPath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.API\\Core.API.csproj",
         "packagesPath": "C:\\Users\\DaHaN\\.nuget\\packages\\",
-        "outputPath": "F:\\BuncherSystem\\Core.Model\\Core.API\\obj\\",
+        "outputPath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DaHaN\\AppData\\Roaming\\NuGet\\NuGet.Config",

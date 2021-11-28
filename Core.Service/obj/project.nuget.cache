@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vDZHbLNyCQEIVMWMUusmBLcy2iUcBeIvv1pSs5DE2xaUkI/Ib5LMdZjstPRWpoX73Ro74PZ6J2M1C7CnozeS+w==",
+  "dgSpecHash": "l4NaZxSLvQ5K0ppFzkRf3VS03pWhmDncutTMMnhP2UTJKY7C8jN39eBG35dr4B/4f1Wy58DOzLsdR+6I6iSICQ==",
   "success": true,
-  "projectFilePath": "F:\\BuncherSystem\\Core.Model\\Core.Service\\Core.Service.csproj",
+  "projectFilePath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Service\\Core.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DaHaN\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\DaHaN\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

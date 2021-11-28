@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\BuncherSystem\\Core.Model\\Core.Model\\Core.Model.csproj",
+      "projectUniqueName": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Model\\Core.Model.csproj",
       "projectName": "Core.Model",
-      "projectPath": "F:\\BuncherSystem\\Core.Model\\Core.Model\\Core.Model.csproj",
+      "projectPath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Model\\Core.Model.csproj",
       "packagesPath": "C:\\Users\\DaHaN\\.nuget\\packages\\",
-      "outputPath": "F:\\BuncherSystem\\Core.Model\\Core.Model\\obj\\",
+      "outputPath": "F:\\REPOTEQ\\BunicherSystem\\BunicherSystem\\Core.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DaHaN\\AppData\\Roaming\\NuGet\\NuGet.Config",
