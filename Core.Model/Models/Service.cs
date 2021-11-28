@@ -1,0 +1,16 @@
+﻿
+using Core.Model.Models.Shared;
+using System.Collections.Generic;
+
+namespace Core.Model.Models
+{
+    public class Service :BasicData
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public float Price { get; set; }
+        public bool Active { get; set; }
+        public virtual List<ServiceCustomer> ServiceCustomers { get; set; }
+
+    }
+}

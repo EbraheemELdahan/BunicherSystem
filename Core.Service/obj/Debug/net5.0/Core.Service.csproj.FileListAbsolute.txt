@@ -1,0 +1,17 @@
+F:\BuncherSystem\Core.Model\Core.Service\bin\Debug\net5.0\Core.Service.deps.json
+F:\BuncherSystem\Core.Model\Core.Service\bin\Debug\net5.0\Core.Service.dll
+F:\BuncherSystem\Core.Model\Core.Service\bin\Debug\net5.0\ref\Core.Service.dll
+F:\BuncherSystem\Core.Model\Core.Service\bin\Debug\net5.0\Core.Service.pdb
+F:\BuncherSystem\Core.Model\Core.Service\bin\Debug\net5.0\Core.Data.dll
+F:\BuncherSystem\Core.Model\Core.Service\bin\Debug\net5.0\Core.Model.dll
+F:\BuncherSystem\Core.Model\Core.Service\bin\Debug\net5.0\Core.Data.pdb
+F:\BuncherSystem\Core.Model\Core.Service\bin\Debug\net5.0\Core.Model.pdb
+F:\BuncherSystem\Core.Model\Core.Service\obj\Debug\net5.0\Core.Service.csproj.AssemblyReference.cache
+F:\BuncherSystem\Core.Model\Core.Service\obj\Debug\net5.0\Core.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\BuncherSystem\Core.Model\Core.Service\obj\Debug\net5.0\Core.Service.AssemblyInfoInputs.cache
+F:\BuncherSystem\Core.Model\Core.Service\obj\Debug\net5.0\Core.Service.AssemblyInfo.cs
+F:\BuncherSystem\Core.Model\Core.Service\obj\Debug\net5.0\Core.Service.csproj.CoreCompileInputs.cache
+F:\BuncherSystem\Core.Model\Core.Service\obj\Debug\net5.0\Core.Service.csproj.CopyComplete
+F:\BuncherSystem\Core.Model\Core.Service\obj\Debug\net5.0\Core.Service.dll
+F:\BuncherSystem\Core.Model\Core.Service\obj\Debug\net5.0\ref\Core.Service.dll
+F:\BuncherSystem\Core.Model\Core.Service\obj\Debug\net5.0\Core.Service.pdb
