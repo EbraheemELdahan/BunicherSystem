@@ -1,0 +1,230 @@
+﻿
+@{ 
+    Layout = "_Views_Shared__Layout.cshtml";
+    ViewBag.Title = "Users";
+}
+
+    <div class="container-fluid">
+
+        <!-- Navigation start -->
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#WafiAdminNavbar" aria-controls="WafiAdminNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="WafiAdminNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="index.html" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-inbox nav-icon"></i>
+                            الرئيسية
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-layers2 nav-icon"></i>
+                            الخدمات
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-layers1 nav-icon"></i>
+                            الفواتير
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-edit1 nav-icon"></i>
+                            التقارير
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active-page" href="#" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-users nav-icon"></i>
+                            العملاء
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="users.html" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-alert-triangle nav-icon"></i>
+                            الاعدادت
+                        </a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+       
+
+        <div class="content-wrapper">
+
+                <!-- Row start -->
+                <div class="row gutters">
+
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="card h-100">
+
+                            <div class="card-body">
+                                <div class="card-form">
+                                    <div class="card-header">
+                                        <div class="card-title">
+                                            <i class="icon-layers2"></i> &nbsp; المستخدمين
+
+                                            <a class="add-user" href="add_user.html"><i class="icon-add"></i> إضافة مستخدم</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="card-body">
+
+                                        <div class="row gutters">
+                                            <div class="col-xl-6 col-lg col-md-6 col-sm-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="fullName">اسم العميل:</label>
+                                                    <input type="text" class="form-control" id="fullName" placeholder=" ">
+                                                </div>
+
+                                            </div>
+                                            <div class="col-xl-6 col-lg col-md-6 col-sm-6 col-12">
+                                                <div class="form-group">
+                                                    <label for="fullName">رقم الهاتف:</label>
+                                                    <input type="text" class="form-control" id="fullName" placeholder=" ">
+                                                </div>
+
+                                            </div>
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                                <div class="text-right">
+
+                                                    <a href="#" class="add_userbtn"><i class="icon-search"></i> بحث</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-30">
+
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="table-responsive">
+                                                            <table class="table table-bordered table-striped">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>#</th>
+                                                                        <th>اسم المستخدم</th>
+                                                                        <th>اسم العميل</th>
+                                                                        <th>رقم الهاتف</th>
+                                                                        <th>الصورة</th>
+                                                                        <th>التصنيف</th>
+                                                                        <th>عدد الفواتير</th>
+                                                                        <th>عدد العملاء</th>
+                                                                        <th>عدد الخدمات</th>
+                                                                        <th></th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td>أحمد خالد محمود</td>
+                                                                        <td>عبد الله ابراهيم</td>
+                                                                        <td>+999 657 123 122</td>
+                                                                        <td><img class="img_table" src="images/logo-2.png"></td>
+                                                                        <td>محلات خدمة سريعة</td>
+                                                                        <td>8</td>
+                                                                        <td>100</td>
+                                                                        <td>10</td>
+                                                                        <td>
+                                                                            <div class="td-actions">
+                                                                                <a class="active" href="#"><i class="icon-power_settings_new"></i> تفعيل</a>
+                                                                                <a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
+                                                                                <a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td>أحمد خالد محمود</td>
+                                                                        <td>عبد الله ابراهيم</td>
+                                                                        <td>+999 657 123 122</td>
+                                                                        <td><img class="img_table" src="images/logo-2.png"></td>
+                                                                        <td>محلات خدمة سريعة</td>
+                                                                        <td>8</td>
+                                                                        <td>100</td>
+                                                                        <td>10</td>
+                                                                        <td>
+                                                                            <div class="td-actions">
+                                                                                <a class="cancel" href="#"><i class="icon-circle-with-minus"></i> تعطيل</a>
+                                                                                <a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
+                                                                                <a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td>أحمد خالد محمود</td>
+                                                                        <td>عبد الله ابراهيم</td>
+                                                                        <td>+999 657 123 122</td>
+                                                                        <td><img class="img_table" src="images/logo-2.png"></td>
+                                                                        <td>محلات خدمة سريعة</td>
+                                                                        <td>8</td>
+                                                                        <td>100</td>
+                                                                        <td>10</td>
+                                                                        <td>
+                                                                            <div class="td-actions">
+                                                                                <a class="active" href="#"><i class="icon-power_settings_new"></i> تفعيل</a>
+                                                                                <a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
+                                                                                <a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td>أحمد خالد محمود</td>
+                                                                        <td>عبد الله ابراهيم</td>
+                                                                        <td>+999 657 123 122</td>
+                                                                        <td><img class="img_table" src="images/logo-2.png"></td>
+                                                                        <td>محلات خدمة سريعة</td>
+                                                                        <td>8</td>
+                                                                        <td>100</td>
+                                                                        <td>10</td>
+                                                                        <td>
+                                                                            <div class="td-actions">
+                                                                                <a class="cancel" href="#"><i class="icon-circle-with-minus"></i> تعطيل</a>
+                                                                                <a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
+                                                                                <a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       
+ 

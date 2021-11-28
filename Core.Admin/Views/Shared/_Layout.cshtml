@@ -1,48 +1,166 @@
-﻿<!DOCTYPE html>
+﻿
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Core.Admin</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap4 Dashboard Template">
+    <meta name="author" content="ParkerThemes">
+    <link rel="shortcut icon" href="images/logo-darkText.png" />
+
+    <!-- Title -->
+    <title>@ViewBag.Titles</title>
+
+
+    <!-- *************
+        ************ Common Css Files *************
+    ************ -->
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Icomoon Font Icons css -->
+    <link rel="stylesheet" href="fonts/style.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/main.css">
+
+
+
+
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Core.Admin</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+<body dir="rtl">
+
+
+
+
+    <!-- *************
+        ************ Header section start *************
+    ************* -->
+    <!-- Header start -->
+    <header class="header">
+        <div class="logo-wrapper">
+            <a href="index.html" class="logo">
+                <img src="images/logo-darkText.png" alt="BANSHER" />
+            </a>
+
+        </div>
+
+    </header>
+    <!-- Header end -->
+    <!-- Screen overlay start -->
+    <div class="screen-overlay"></div>
+    <!-- Screen overlay end -->
+    <!-- *************
+        ************ Header section end *************
+    ************* -->
+    <!-- Container fluid start -->
+    <div class="container-fluid">
+
+        <!-- Navigation start -->
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#WafiAdminNavbar" aria-controls="WafiAdminNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="WafiAdminNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="index.html" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-inbox nav-icon"></i>
+                            الرئيسية
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-layers2 nav-icon"></i>
+                            الخدمات
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-layers1 nav-icon"></i>
+                            الفواتير
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-edit1 nav-icon"></i>
+                            التقارير
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active-page" href="#" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-users nav-icon"></i>
+                            العملاء
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="users.html" id="appsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-alert-triangle nav-icon"></i>
+                            الاعدادت
+                        </a>
+
+                    </li>
+
+                </ul>
             </div>
         </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+        <!-- Navigation end -->
+        <!-- *************
+            ************ Main container start *************
+        ************* -->
+        <div class="main-container">
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - Core.Admin - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <!-- Page header start -->
+            <div class="page-header">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">الرئيسية</li>
+                    <li class="breadcrumb-item active">المستخدمين</li>
+                </ol>
+            </div>
+            <!-- Page header end -->
+
+            @RenderBody()
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+        <!-- *************
+            ************ Main container end *************
+        ************* -->
+        <!-- Footer start -->
+        <footer class="main-footer">© BANSHER 2021</footer>
+        <!-- Footer end -->
+
+    </div>
+    <!-- Container fluid end -->
+    <!-- *************
+        ************ Required JavaScript Files *************
+    ************* -->
+    <!-- Required jQuery first, then Bootstrap Bundle JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/moment.js"></script>
+
+
+    <!-- *************
+        ************ Vendor Js Files *************
+    ************* -->
+    <!-- Slimscroll JS -->
+    <script src="vendor/slimscroll/slimscroll.min.js"></script>
+    <script src="vendor/slimscroll/custom-scrollbar.js"></script>
+
+
+    <!-- Main Js Required -->
+    <script src="js/main.js"></script>
+
 </body>
 </html>

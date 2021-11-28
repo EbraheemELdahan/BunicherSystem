@@ -147,7 +147,6 @@ F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Core.Admin.RazorTargetAssemblyInfo.cache
@@ -158,3 +157,4 @@ F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Core.Admin.
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\ref\Core.Admin.dll
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Core.Admin.pdb
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Core.Admin.genruntimeconfig.cache
+F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\UserController1\Index.cshtml.g.cs
