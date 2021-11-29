@@ -12,7 +12,7 @@ namespace Core.Data
         private ICustomerReposiory _customer;
         private IServiceRepository _service;
         private IUserRepository _user;
-        private IServiceCustomerRepository _serviceCustomerRepository;
+        
 
         private readonly BuncherSystemDbContext _db;
         public RepositoryWrapper(BuncherSystemDbContext db)
@@ -59,20 +59,7 @@ namespace Core.Data
 
             }
         }
-        public IServiceCustomerRepository ServiceCustomerRepository
-        {
-
-
-            get
-            {
-                if (_user == null)
-                {
-                    _serviceCustomerRepository = new ServiceCustomerRepository(_db);
-                }
-                return _serviceCustomerRepository;
-
-            }
-        }
+       
 
 
 
@@ -86,6 +73,6 @@ namespace Core.Data
         ICustomerReposiory CustomerRepository { get; }
         IServiceRepository ServiceRepository { get; }
         IUserRepository UserRepository { get; }
-        IServiceCustomerRepository ServiceCustomerRepository { get; }
+       
     }
 }

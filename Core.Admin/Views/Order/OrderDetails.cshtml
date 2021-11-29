@@ -1,0 +1,83 @@
+﻿@using Core.Model.Models
+@model IQueryable<User>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Users";
+}
+
+<div class="content-wrapper">
+
+    <!-- Row start -->
+    <div class="row gutters">
+
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="card h-100">
+
+                <div class="card-body">
+                    <div class="card-form">
+                        <div class="card-header">
+                            <div class="card-title">
+                                <i class="icon-layers2"></i> &nbsp; المستخدمين
+
+                                <a class="add-user" href="@Url.Action("AddEdit")"><i class="icon-add"></i> إضافة مستخدم</a>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+
+                            <div class="row gutters">
+                                
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-30">
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-striped">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>اسم المستخدم</th>
+                                                            <th>اسم العميل</th>
+                                                            <th>اسم الخدمة</th>
+                                                            <th>الكمية</th>
+                                                            <th>الخصم</th>
+                                                           
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>أحمد خالد محمود</td>
+                                                            <td>عبد الله ابراهيم</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            
+                                                         
+                                                        </tr>
+                                                        
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+

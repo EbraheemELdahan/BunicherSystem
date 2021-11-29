@@ -6,17 +6,11 @@ using System.Threading.Tasks;
 
 namespace Core.Admin.Controllers
 {
-    public class CustomerController : Controller
+    public class Order : Controller
     {
-        
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult AddEdit()
-        {
-            return View();
-        }
-        
     }
 }

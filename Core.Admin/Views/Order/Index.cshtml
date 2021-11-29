@@ -1,5 +1,5 @@
 ﻿@using Core.Model.Models
-@model IQueryable<Customer>
+@model IQueryable<Order>
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Users";
@@ -26,23 +26,6 @@
                         <div class="card-body">
 
                             <div class="row gutters">
-                                <div class="col-xl-6 col-lg col-md-6 col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <label for="fullName">اسم العميل:</label>
-                                        <input type="text" class="form-control" id="fullName" placeholder=" ">
-                                    </div>
-
-                                </div>
-                                <div class="col-xl-6 col-lg col-md-6 col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <label for="fullName">رقم الهاتف:</label>
-                                        <input type="text" class="form-control" id="fullName" placeholder=" ">
-                                    </div>
-
-                                </div>
-                                
-                                    
-                                
                                 <div class="row">
                                     <div class="col-xl-4 col-lg col-md-4 col-sm-4 col-12">
                                         <div class="form-group">
@@ -88,7 +71,7 @@
                                                                 <th>اسم العميل</th>
                                                                 <th>رقم الهاتف</th>
                                                                 <th>تاريخ الاضافة</th>
-                                                                <th></th>
+                                                                
                                                             </tr>
 
                                                         </thead>
@@ -99,31 +82,10 @@
                                                                 <td>عبد الله ابراهيم</td>
                                                                 <td>+999 657 123 122</td>
                                                                 <td></td>
-                                                                <td>
-                                                                    <div class="td-actions">
-                                                                        <a class="active" href="#"><i class="icon-power_settings_new"></i> تفعيل</a>
-                                                                        <a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
-                                                                        <a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
-
-                                                                    </div>
-                                                                </td>
+                                                                
                                                             </tr>
 
-                                                            <tr>
-                                                                <td>1</td>
-                                                                <td>أحمد خالد محمود</td>
-                                                                <td>عبد الله ابراهيم</td>
-                                                                <td>+999 657 123 122</td>
-                                                               <td></td>
-                                                                <td>
-                                                                    <div class="td-actions">
-                                                                        <a class="cancel" href="#"><i class="icon-circle-with-minus"></i> تعطيل</a>
-                                                                        <a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
-                                                                        <a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
-
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
+                                                          
 
                                                         </tbody>
                                                     </table>
@@ -133,6 +95,8 @@
 
                                     </div>
                                 </div>
+                               
+                            </div>
 
                         </div>
 
@@ -148,4 +112,4 @@
 
 </div>
 
-    </div>
+

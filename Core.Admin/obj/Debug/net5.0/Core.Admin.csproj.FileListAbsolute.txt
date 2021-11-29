@@ -157,13 +157,13 @@ F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Core.Admin.
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Core.Admin.genruntimeconfig.cache
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\User\AddEdit.cshtml.g.cs
-F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\User\Reports.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\bin\Debug\net5.0\JetBrains.Annotations.dll
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\bin\Debug\net5.0\X.PagedList.dll
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Core.Admin.MvcApplicationPartsAssemblyInfo.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Customer\Index.cshtml.g.cs
-F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Customer\AddEdit.cshtml.g.cs
-F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Customer\AddEditRecipt.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Service\Index.cshtml.g.cs
-F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Service\AddEdti.cshtml.g.cs
+F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\User\Home.cshtml.g.cs
+F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Order\Index.cshtml.g.cs
+F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Order\OrderDetails.cshtml.g.cs
+F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Customer\AddEdit.cshtml.g.cs

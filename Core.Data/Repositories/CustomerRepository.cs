@@ -33,7 +33,7 @@ namespace Core.Data.Repositories
 
         public IQueryable<Customer> GetAll()
         {
-            return _db.Customers.Where(a => a.IsDeleted == false).OrderByDescending(a => a.Id);
+            return _db.Customers.Where(a => a.IsDeleted == false).OrderByDescending(a => a.CreationDate);
         }
 
        

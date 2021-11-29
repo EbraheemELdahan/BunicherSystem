@@ -9,6 +9,7 @@ namespace Core.Model.Models.Shared
     public class BasicData
     {
         public bool IsDeleted { get; set; }
+        public bool IsActive { get; set; }
         public DateTime? CreationDate { get; set; } = DateTime.Now;
     }
 }
