@@ -1,4 +1,6 @@
-﻿@{
+﻿@using Core.Model.Models
+@model User
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "AddEdit";
 }
@@ -26,42 +28,42 @@
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                     <div class="form-group">
                                         <label for="fullName">اسم المستخدم:</label>
-                                        <input type="text" class="form-control" id="fullName" placeholder=" ">
+                                        <input type="text" class="form-control"  placeholder=" ">
                                     </div>
 
                                 </div>
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                     <div class="form-group">
-                                        <label for="fullName">اسم العميل:</label>
-                                        <input type="text" class="form-control" id="fullName" placeholder=" ">
+                                        <label for="Name">اسم العميل:</label>
+                                        <input asp-for="Name" type="text" class="form-control" placeholder=" ">
                                     </div>
 
                                 </div>
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                     <div class="form-group">
-                                        <label for="fullName">رقم الهاتف:</label>
-                                        <input type="text" class="form-control" id="fullName" placeholder=" ">
+                                        <label for="MoileNumber">رقم الهاتف:</label>
+                                        <input type="text" asp-for="MoileNumber" class="form-control" id="fullName" placeholder=" ">
                                     </div>
 
                                 </div>
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                     <div class="form-group">
-                                        <label for="fullName">العنوان:</label>
-                                        <input type="text" class="form-control" id="fullName" placeholder=" ">
+                                        <label for="Address">العنوان:</label>
+                                        <input asp-for="Address" type="text" class="form-control"  placeholder=" ">
                                     </div>
 
                                 </div>
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                     <div class="form-group">
-                                        <label for="fullName">القيمة المضافة:</label>
-                                        <input type="number" class="form-control" id="fullName" placeholder=" ">
+                                        <label for="ValueAddedTax">القيمة المضافة:</label>
+                                        <input type="number" class="form-control" asp-for="ValueAddedTax" placeholder=" ">
                                     </div>
 
                                 </div>
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                     <div class="form-group">
-                                        <label for="fullName">كلمة المرور:</label>
-                                        <input type="text" class="form-control" id="fullName" placeholder=" ">
+                                        <label for="Password">كلمة المرور:</label>
+                                        <input type="text" class="form-control" asp-for="Password" placeholder=" ">
                                     </div>
 
                                 </div>

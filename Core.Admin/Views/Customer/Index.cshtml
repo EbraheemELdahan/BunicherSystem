@@ -1,6 +1,8 @@
-﻿@{
+﻿@using Core.Model.Models
+@model IQueryable<Customer>
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "AddEdit";
+    ViewBag.Title = "Users";
 }
 
 <div class="content-wrapper">
@@ -15,17 +17,35 @@
                     <div class="card-form">
                         <div class="card-header">
                             <div class="card-title">
-                                <i class="icon-layers2"></i> &nbsp; الفواتير
+                                <i class="icon-layers2"></i> &nbsp; المستخدمين
 
-
+                                <a class="add-user" href="@Url.Action("AddEdit")"><i class="icon-add"></i> إضافة مستخدم</a>
                             </div>
 
                         </div>
                         <div class="card-body">
 
                             <div class="row gutters">
+                                <div class="col-xl-6 col-lg col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">اسم العميل:</label>
+                                        <input type="text" class="form-control" id="fullName" placeholder=" ">
+                                    </div>
 
+                                </div>
+                                <div class="col-xl-6 col-lg col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName">رقم الهاتف:</label>
+                                        <input type="text" class="form-control" id="fullName" placeholder=" ">
+                                    </div>
 
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                    <div class="text-right">
+
+                                        <a href="#" class="add_userbtn"><i class="icon-search"></i> بحث</a>
+                                    </div>
+                                </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-30">
 
                                     <div class="card">
@@ -44,8 +64,6 @@
                                                             <th>عدد العملاء</th>
                                                             <th>عدد الخدمات</th>
                                                             <th></th>
-                                                            <th></th>
-                                                            <th></th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
@@ -59,8 +77,6 @@
                                                             <td>8</td>
                                                             <td>100</td>
                                                             <td>10</td>
-                                                            <td class="text-center"><a class="btn btn-addrecept" href="#"><i class="icon-add"></i> اضافة فاتورة</a></td>
-                                                            <td class="text-center"><a class="btn btn-viewrecept" href="#"><i class="icon-image"></i> عرض فاتورة</a></td>
                                                             <td>
                                                                 <div class="td-actions">
                                                                     <a class="active" href="#"><i class="icon-power_settings_new"></i> تفعيل</a>
@@ -80,8 +96,6 @@
                                                             <td>8</td>
                                                             <td>100</td>
                                                             <td>10</td>
-                                                            <td class="text-center"><a class="btn btn-addrecept" href="#"><i class="icon-add"></i> اضافة فاتورة</a></td>
-                                                            <td class="text-center"><a class="btn btn-viewrecept" href="#"><i class="icon-image"></i> عرض فاتورة</a></td>
                                                             <td>
                                                                 <div class="td-actions">
                                                                     <a class="cancel" href="#"><i class="icon-circle-with-minus"></i> تعطيل</a>
@@ -101,8 +115,6 @@
                                                             <td>8</td>
                                                             <td>100</td>
                                                             <td>10</td>
-                                                            <td class="text-center"><a class="btn btn-addrecept" href="#"><i class="icon-add"></i> اضافة فاتورة</a></td>
-                                                            <td class="text-center"><a class="btn btn-viewrecept" href="#"><i class="icon-image"></i> عرض فاتورة</a></td>
                                                             <td>
                                                                 <div class="td-actions">
                                                                     <a class="active" href="#"><i class="icon-power_settings_new"></i> تفعيل</a>
@@ -122,8 +134,6 @@
                                                             <td>8</td>
                                                             <td>100</td>
                                                             <td>10</td>
-                                                            <td class="text-center"><a class="btn btn-addrecept" href="#"><i class="icon-add"></i> اضافة فاتورة</a></td>
-                                                            <td class="text-center"><a class="btn btn-viewrecept" href="#"><i class="icon-image"></i> عرض فاتورة</a></td>
                                                             <td>
                                                                 <div class="td-actions">
                                                                     <a class="cancel" href="#"><i class="icon-circle-with-minus"></i> تعطيل</a>
@@ -155,4 +165,4 @@
     </div>
 
 </div>
-			
+

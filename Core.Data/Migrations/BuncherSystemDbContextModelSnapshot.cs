@@ -19,6 +19,33 @@ namespace Core.Data.Migrations
                 .HasAnnotation("ProductVersion", "5.0.12")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Core.Model.Models.Bill", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BillNumber")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BillNumber")
+                        .IsUnique();
+
+                    b.ToTable("Bill");
+                });
+
             modelBuilder.Entity("Core.Model.Models.Customer", b =>
                 {
                     b.Property<int>("Id")
@@ -105,6 +132,9 @@ namespace Core.Data.Migrations
                     b.Property<DateTime?>("CreationDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
@@ -112,6 +142,12 @@ namespace Core.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserType")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("ValueAddedTax")
@@ -122,16 +158,27 @@ namespace Core.Data.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("Core.Model.Models.Bill", b =>
+                {
+                    b.HasOne("Core.Model.Models.Customer", "User")
+                        .WithOne("Bill")
+                        .HasForeignKey("Core.Model.Models.Bill", "BillNumber")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Core.Model.Models.ServiceCustomer", b =>
                 {
                     b.HasOne("Core.Model.Models.Customer", "Customer")
-                        .WithMany()
+                        .WithMany("ServiceCustomers")
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Core.Model.Models.Service", "Service")
-                        .WithMany()
+                        .WithMany("ServiceCustomers")
                         .HasForeignKey("ServiceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -139,6 +186,18 @@ namespace Core.Data.Migrations
                     b.Navigation("Customer");
 
                     b.Navigation("Service");
+                });
+
+            modelBuilder.Entity("Core.Model.Models.Customer", b =>
+                {
+                    b.Navigation("Bill");
+
+                    b.Navigation("ServiceCustomers");
+                });
+
+            modelBuilder.Entity("Core.Model.Models.Service", b =>
+                {
+                    b.Navigation("ServiceCustomers");
                 });
 #pragma warning restore 612, 618
         }

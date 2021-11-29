@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Core.Service;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,17 @@ namespace Core.Admin.Controllers
 {
     public class UserController : Controller
     {
+        private readonly IServiceWrapper _service;
+
+        public UserController(IServiceWrapper service)
+        {
+            _service = service;
+        }
         public IActionResult Index()
         {
-            return View();
+          var Users=  _service.UserService.GetAll();
+
+            return View(Users);
         }
         
         public IActionResult AddEdit()

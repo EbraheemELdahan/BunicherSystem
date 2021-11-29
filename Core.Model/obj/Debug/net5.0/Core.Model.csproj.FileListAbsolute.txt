@@ -14,7 +14,6 @@ F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\bin\Debug\net5.0\Core.Model.
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\bin\Debug\net5.0\Core.Model.dll
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\bin\Debug\net5.0\ref\Core.Model.dll
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\bin\Debug\net5.0\Core.Model.pdb
-F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\obj\Debug\net5.0\Core.Model.csproj.AssemblyReference.cache
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\obj\Debug\net5.0\Core.Model.GeneratedMSBuildEditorConfig.editorconfig
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\obj\Debug\net5.0\Core.Model.AssemblyInfoInputs.cache
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\obj\Debug\net5.0\Core.Model.AssemblyInfo.cs
@@ -22,3 +21,4 @@ F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\obj\Debug\net5.0\Core.Model.
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\obj\Debug\net5.0\Core.Model.dll
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\obj\Debug\net5.0\ref\Core.Model.dll
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\obj\Debug\net5.0\Core.Model.pdb
+F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Model\obj\Debug\net5.0\Core.Model.csproj.AssemblyReference.cache
