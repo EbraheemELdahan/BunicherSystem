@@ -13,7 +13,7 @@ namespace Core.Admin.Controllers
         {
             return View();
         }
-        public IActionResult AddEdit()
+        public IActionResult Details()
         {
             return View();
         }

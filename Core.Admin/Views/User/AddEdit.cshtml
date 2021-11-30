@@ -3,6 +3,7 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "AddEdit";
+    ViewBag.Page = "اضافة مستخدم";  
 }
 <div class="content-wrapper">
 
@@ -16,7 +17,7 @@
                     <div class="card-form">
                         <div class="card-header">
                             <div class="card-title">
-                                <i class="icon-layers2"></i> &nbsp; المستخدمين
+                                <i class="icon-layers2"></i> &nbsp; اضافة مستخدم
 
                                 <a class="add-user" href="@Url.Action("Index")"><i class="icon-controller-fast-backward"></i> عودة</a>
                             </div>
@@ -32,13 +33,7 @@
                                     </div>
 
                                 </div>
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <label for="Name">اسم العميل:</label>
-                                        <input asp-for="Name" type="text" class="form-control" placeholder=" ">
-                                    </div>
-
-                                </div>
+                                
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                     <div class="form-group">
                                         <label for="MoileNumber">رقم الهاتف:</label>
@@ -67,17 +62,7 @@
                                     </div>
 
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <label for="fullName">التصنيف:</label>
-                                        <select class="form-control">
-
-                                            <option>اختر التصنيف...</option>
-                                            <option>الاول</option>
-                                            <option>الاول</option>
-                                        </select>
-                                    </div>
-                                </div>
+                                
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 
                                     <div class="input-group mt-29">

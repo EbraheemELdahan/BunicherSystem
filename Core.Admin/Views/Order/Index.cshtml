@@ -2,7 +2,8 @@
 @model IQueryable<Order>
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Users";
+    ViewBag.Title = "Orders";
+    ViewBag.Page = "الفواتير";
 }
 
 <div class="content-wrapper">
@@ -17,9 +18,9 @@
                     <div class="card-form">
                         <div class="card-header">
                             <div class="card-title">
-                                <i class="icon-layers2"></i> &nbsp; المستخدمين
+                                <i class="icon-layers2"></i> &nbsp; الفواتير
 
-                                <a class="add-user" href="@Url.Action("AddEdit")"><i class="icon-add"></i> إضافة مستخدم</a>
+                                
                             </div>
 
                         </div>
@@ -67,10 +68,14 @@
                                                         <thead>
                                                             <tr>
                                                                 <th>#</th>
-                                                                <th>اسم المستخدم</th>
+                                                                <th>مقدم الخدمة</th>
                                                                 <th>اسم العميل</th>
                                                                 <th>رقم الهاتف</th>
-                                                                <th>تاريخ الاضافة</th>
+                                                                <th>تاريخ الفاتورة</th>
+                                                                <th>السعر الكلى </th>
+                                                                <th>الخصم</th>
+                                                                <th>السعر الكلى بعد الخصم</th>
+                                                                <th>تفاصيل الفاتورة</th>
                                                                 
                                                             </tr>
 
@@ -82,7 +87,14 @@
                                                                 <td>عبد الله ابراهيم</td>
                                                                 <td>+999 657 123 122</td>
                                                                 <td></td>
-                                                                
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>
+                                                                    <div class="td-actions">
+                                                                        <a class="edit" href="@Url.Action("OrderDetails","Order")" title="تعديل"><i class="icon-pencil"></i>  تفاصيل </a>
+                                                                    </div>
+                                                                </td>
                                                             </tr>
 
                                                           

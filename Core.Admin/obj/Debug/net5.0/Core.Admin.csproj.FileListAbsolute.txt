@@ -166,4 +166,4 @@ F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\User\Home.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Order\Index.cshtml.g.cs
 F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Order\OrderDetails.cshtml.g.cs
-F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Customer\AddEdit.cshtml.g.cs
+F:\REPOTEQ\BunicherSystem\BunicherSystem\Core.Admin\obj\Debug\net5.0\Razor\Views\Customer\Details.cshtml.g.cs

@@ -3,6 +3,7 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Users";
+    ViewBag.Page = "العملاء";
 }
 
 <div class="content-wrapper">
@@ -17,9 +18,9 @@
                     <div class="card-form">
                         <div class="card-header">
                             <div class="card-title">
-                                <i class="icon-layers2"></i> &nbsp; المستخدمين
+                                <i class="icon-layers2"></i> &nbsp; العملاء
 
-                                <a class="add-user" href="@Url.Action("AddEdit")"><i class="icon-add"></i> إضافة مستخدم</a>
+                             
                             </div>
 
                         </div>
@@ -84,10 +85,10 @@
                                                         <thead>
                                                             <tr>
                                                                 <th>#</th>
-                                                                <th>اسم المستخدم</th>
+                                                                <th>مقدم الخدمة</th>
                                                                 <th>اسم العميل</th>
                                                                 <th>رقم الهاتف</th>
-                                                                <th>تاريخ الاضافة</th>
+                                                                <th>تاريخ اضافة العميل</th>
                                                                 <th></th>
                                                             </tr>
 
@@ -101,29 +102,15 @@
                                                                 <td></td>
                                                                 <td>
                                                                     <div class="td-actions">
-                                                                        <a class="active" href="#"><i class="icon-power_settings_new"></i> تفعيل</a>
-                                                                        <a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
-                                                                        <a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
+                                                                        
+                                                                        <a class="edit" href="@Url.Action("Details","Customer")" title="تعديل"><i class="icon-pencil"></i>  تفاصيل </a>
+                                                                        
 
                                                                     </div>
                                                                 </td>
                                                             </tr>
 
-                                                            <tr>
-                                                                <td>1</td>
-                                                                <td>أحمد خالد محمود</td>
-                                                                <td>عبد الله ابراهيم</td>
-                                                                <td>+999 657 123 122</td>
-                                                               <td></td>
-                                                                <td>
-                                                                    <div class="td-actions">
-                                                                        <a class="cancel" href="#"><i class="icon-circle-with-minus"></i> تعطيل</a>
-                                                                        <a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
-                                                                        <a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
-
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
+                                                           
 
                                                         </tbody>
                                                     </table>

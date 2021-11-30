@@ -3,6 +3,7 @@
 @{
 	Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewBag.Title = "Users";
+	ViewBag.Page = "المستخدمين";
 }
 
 <div class="content-wrapper">
@@ -28,7 +29,7 @@
 							<div class="row gutters">
 								<div class="col-xl-6 col-lg col-md-6 col-sm-6 col-12">
 									<div class="form-group">
-										<label for="fullName">اسم العميل:</label>
+										<label for="fullName">اسم مقدم الخدمة:</label>
 										<input type="text" class="form-control" id="fullName" placeholder=" ">
 									</div>
 
@@ -55,11 +56,10 @@
 													<thead>
 														<tr>
 															<th>#</th>
-															<th>اسم المستخدم</th>
-															<th>اسم العميل</th>
+															<th>مقدم الخدمة</th>
+															
 															<th>رقم الهاتف</th>
-															<th>الصورة</th>
-															<th>التصنيف</th>
+															<th>الصورة</th>											
 															<th>عدد الفواتير</th>
 															<th>عدد العملاء</th>
 															<th>عدد الخدمات</th>
@@ -70,79 +70,24 @@
 														<tr>
 															<td>1</td>
 															<td>أحمد خالد محمود</td>
-															<td>عبد الله ابراهيم</td>
+															
 															<td>+999 657 123 122</td>
-															<td><img class="img_table" src="images/logo-2.png"></td>
+															<td><img class="img_table" src="/images/logo-2.png"></td>
 															<td>محلات خدمة سريعة</td>
 															<td>8</td>
 															<td>100</td>
 															<td>10</td>
 															<td>
 																<div class="td-actions">
-																	<a class="active" href="#"><i class="icon-power_settings_new"></i> تفعيل</a>
-																	<a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
+																	@*<a class="active" href="#"><i class="icon-power_settings_new"></i> تفعيل</a>*@
+																	<a class="edit" href="@Url.Action("AddEdit")" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
 																	<a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
 
 																</div>
 															</td>
 														</tr>
-														<tr>
-															<td>1</td>
-															<td>أحمد خالد محمود</td>
-															<td>عبد الله ابراهيم</td>
-															<td>+999 657 123 122</td>
-															<td><img class="img_table" src="images/logo-2.png"></td>
-															<td>محلات خدمة سريعة</td>
-															<td>8</td>
-															<td>100</td>
-															<td>10</td>
-															<td>
-																<div class="td-actions">
-																	<a class="cancel" href="#"><i class="icon-circle-with-minus"></i> تعطيل</a>
-																	<a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
-																	<a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
-
-																</div>
-															</td>
-														</tr>
-														<tr>
-															<td>1</td>
-															<td>أحمد خالد محمود</td>
-															<td>عبد الله ابراهيم</td>
-															<td>+999 657 123 122</td>
-															<td><img class="img_table" src="images/logo-2.png"></td>
-															<td>محلات خدمة سريعة</td>
-															<td>8</td>
-															<td>100</td>
-															<td>10</td>
-															<td>
-																<div class="td-actions">
-																	<a class="active" href="#"><i class="icon-power_settings_new"></i> تفعيل</a>
-																	<a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
-																	<a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
-
-																</div>
-															</td>
-														</tr>
-														<tr>
-															<td>1</td>
-															<td>أحمد خالد محمود</td>
-															<td>عبد الله ابراهيم</td>
-															<td>+999 657 123 122</td>
-															<td><img class="img_table" src="images/logo-2.png"></td>
-															<td>محلات خدمة سريعة</td>
-															<td>8</td>
-															<td>100</td>
-															<td>10</td>
-															<td>
-																<div class="td-actions">
-																	<a class="cancel" href="#"><i class="icon-circle-with-minus"></i> تعطيل</a>
-																	<a class="edit" href="#" title="تعديل"><i class="icon-pencil"></i>  تعديل </a>
-																	<a class="delete" href="#" title="حذف"><i class="icon-delete"></i> حذف</a>
-
-																</div>
-															</td>
-														</tr>
+														
+														
 													</tbody>
 												</table>
 											</div>
